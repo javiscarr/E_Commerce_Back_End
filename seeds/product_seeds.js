@@ -2,13 +2,13 @@ const { Product } = require("../models");
 
 const productData = [
   {
-    product_name: "Shea Butter Baby by Ari Lennox vinyl album",
+    product_name: "Top 50 Artists Essentials vinyl edition",
     price: 26.99,
     stock: 32,
     category_id: 2,
   },
   {
-    product_name: 'Samsung 65" curve 4KUHD Tv',
+    product_name: "Samsung Curve 4KUHD Tv",
     price: 2544.99,
     stock: 13,
     category_id: 3,
