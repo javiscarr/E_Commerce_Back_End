@@ -17,10 +17,10 @@ const tagData = [
     tag_name: "silver",
   },
   {
-    tag_name: '65" inch ',
+    tag_name: "65 inch ",
   },
   {
-    tag_name: '80" inch ',
+    tag_name: "80 inch ",
   },
   {
     tag_name: "black",

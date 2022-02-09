@@ -1,5 +1,5 @@
 // importing items needed for sequelize library
-const { Model, Datatypes, DataTypes } = require("sequelize");
+const { Model, DataTypes } = require("sequelize");
 //importing database connection from config.js
 const sequelize = require("../config/connection");
 
