@@ -7,11 +7,11 @@ router.get("/", (req, res) => {
     include: [
       {
         model: Category,
-        attributes: ["id", "category_name"],
+        attributes: ["category_name"],
       },
       {
         model: Tag,
-        attributes: ["id", "tag_name"],
+        attributes: ["tag_name"],
       },
     ],
   })
@@ -22,10 +22,9 @@ router.get("/", (req, res) => {
     });
 });
 
-// get one product
-router.get("/:id", (req, res) => {
-  // finds a single product by its id
+// should retrieve a single product by its id
 
+router.get("/:id", (req, res) => {
   Product.findOne({
     where: {
       id: req.params.id,
@@ -33,11 +32,11 @@ router.get("/:id", (req, res) => {
     include: [
       {
         model: Category,
-        attributes: ["id", "category_name"],
+        attributes: ["category_name"],
       },
       {
         model: Tag,
-        attributes: ["id", "tag_name"],
+        attributes: ["tag_name"],
       },
     ],
   })
