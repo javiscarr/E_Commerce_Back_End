@@ -56,4 +56,4 @@ The server is running, now you can make requests to it through your desired meth
 
 ### **Email:** Javis.Carr@gmail.com
 
-### **LinkedIn:** [Click here](www.linkedin.com/in/javis-carr-8a584533)
+### **LinkedIn:** [Click here](https://www.linkedin.com/in/javis-carr-8a584533/)
